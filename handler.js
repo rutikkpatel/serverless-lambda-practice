@@ -5,7 +5,8 @@ module.exports.hello = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Go Serverless v1.0! Your function executed successfully!',
+        message: 'Hello from serverless application with AWS Lambda Function',
+        statusCode: 200,
         input: event,
       },
       null,
